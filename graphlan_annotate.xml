@@ -158,6 +158,9 @@ GraPhlAn annotates and visualizes phylogenetic and taxonomic trees with labels, 
 
 GraPhlAn can also be used as a command line program. You can find the updated source code and manual `here1`_
 
+
+**The first step**  consists of uploading your input dataset.  This can be done from the Galaxy **Get-Data / Load-file.**   Be sure you choose **File-Format: circl**
+
 **Input examples:** You can try out GraPhlAn using uploading two toy examples of a taxonomic trees guide.txt_ and a phylogenetic tree `phylo_small.xml`_. You can also copy-and-paste their full address or content into the text field.
 
 **Input**:

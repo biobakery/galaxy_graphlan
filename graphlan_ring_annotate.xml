@@ -27,6 +27,8 @@
 
 Please refer to the "Load input tree" Galaxy module above for an introduction to GraPhlAn and input examples.
 
+If you want to use one of the sample datasets, please upload it using the Galaxy **"Get-Data/Upload-file"**.   Please remember to use **File-Format=circl**
+
 .. class:: infomark
 
 Like the "Annotate tree" module, this step can be recursively applied. 

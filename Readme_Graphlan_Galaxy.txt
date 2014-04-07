@@ -10,14 +10,14 @@ These instructions require the Mercurial versioning system, galaxy, and an inter
 		numpy: http://www.scipy.org/install.html 
 		matplotlib:  sudo apt-get install python-matplotlib
 	
-2. Clone this repository somewhere: It will create a directory named "graphlan_graphlan"
+2. Clone this repository somewhere: It will create a directory named "galaxy_graphlan"
 
 3. In the  "galaxy-dist/tools" directory install graphlan by typing in a terminal:
 hg clone https://bitbucket.org/nsegata/graphlan
 
 4.  Copy all members from the graphlan_galaxy on to /galaxy-dist/tools/graphlan
 cd ~/galaxy-dist/tools/graphlan
-cp ~/graphlan_galaxy/* .
+cp ~/galaxy_graphlan/* .
 
 5. Update member tool_conf.xml  in the galaxy directory adding the following: 
   <section name="GraPhlAn" id="graphlan">

@@ -38,7 +38,7 @@
  </command>
  <inputs>
  <page>
-		<param format="circl" name="inp_data" type="data" label="Input File"/>
+		<param format="circl" name="inp_data" type="data" label="Input File - Taxonomic tree (See example below)  Upload it using Get Data - Upload File: Use format cicl"/>
 		<param name="cond" type="data_column" data_ref="inp_data" accept_default="true" /> 
 
 		<conditional name="cond" type="data_column" data_ref="inp_data" accept_default="true">
@@ -218,9 +218,9 @@ The scheme below summarizes the different types of graphical options that you ca
 
 If you find GraphAn useful in your research, please cite our paper:
 
-| `Nicola Segata`_, Timothy Tickle, Uri Weingart, `Curtis Huttenhower`_.
-| **"Graphical phylogenetic analysis"**
-| http://huttenhower.sph.harvard.edu/graphlan/, in preparation, 2012
+| Francesco Asnicar, George Weingart, Timothy L. Tickle, Curtis Huttenhower, Nicola Segata.
+| **"Compact graphical representation of phylogenetic data and metadata with GraPhlAn"**
+| http://peerj.com/articles/1029/    
 | 
 
  

@@ -1,9 +1,9 @@
 #Installation instructions for GraPhLan in a Galaxy environment.
 These instructions require the Mercurial versioning system, galaxy, and an internet connection.
 
-#For general information about GraphLan pease refer to:
+#For general information about GraphLan please refer to:
 ```
-https://bitbucket.org/nsegata/graphlan/wiki/Home
+https://github.com/biobakery/graphlan
 ```
 #Installation procedure: Graphlan under Galaxy
 
@@ -22,7 +22,7 @@ Clone this repository somewhere: It will create a directory named "galaxy_graphl
 
 In the  "galaxy-dist/tools" directory install graphlan by typing in a terminal:
 ```
-hg clone https://bitbucket.org/nsegata/graphlan
+git clone https://github.com/biobakery/graphlan.git
 ```
 
 Copy all members from the graphlan_galaxy on to /galaxy-dist/tools/graphlan
